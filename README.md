@@ -13,6 +13,7 @@ The main requirements are listed below:
 * Pandas
 # The description of the pFKhib source
 * after_cd_hit.py
+  
   The code is used for turning FASTA format sequences after being deredundant by CD-HIT into HSP (10,10) peptides.
 * encoding_10features.py
   The code is used for encoding an HSP (10,10) peptide into 10 kinds of 1D feature vectors (PseAAC, CKSAAP, OBC, AAindex, ACF, GPS, PSSM, ASA, SS, and BTA) for DNN training.
