@@ -5,7 +5,7 @@ We developed a novel protein language model (PLM)-based framework called "predic
 # Requirements
 The main requirements are listed below:
 
-```Python 3.8
+* Python 3.8
 Numpy
 Scikit-Learn
 matplotlib
