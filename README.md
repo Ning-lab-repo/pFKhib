@@ -36,9 +36,7 @@ The main requirements are listed below:
 * predict.py
   
   The code is to use pFKhib containing 11 DNNs and the integrated DNN we mentioned above to use 11 features generated from a group of HSP (10, 10) peptides (Khib sites) to score them and predict whether each of them is functional.
-* evaluate.py
-  
-  The code is used for getting the Sensitivity, Specificity, and ROC auc scores of 11 DNNs and integrated DNN.
+
 * ROC.py
   
   The code is used to draw 11 ROC curves of the pFKhib model consisting of 11 parallel DNNs and integrated DNN.
